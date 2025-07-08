@@ -21,6 +21,28 @@ export default function Labs() {
       <ul>
         <li>Fall' 25</li>
       </ul>
+      <table bgcolor="#f0f0f1" border={2} width="20%">
+        <thead>
+          <tr>
+            <th>Course</th>
+            <th>Credits</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>CS5600</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>CS5011</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>CS5010</td>
+            <td>4</td>
+          </tr>
+        </tbody>
+      </table>
       {/* <h2>Lab 1</h2>
       <h2>Lab 2</h2>
       <h2>Lab 3</h2> */}
