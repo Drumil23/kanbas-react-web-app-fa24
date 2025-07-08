@@ -15,7 +15,12 @@ export default function Labs() {
       <ol>
         <li>CS5600 - Web Development</li>
         <li>CS5011 - PDP</li>
+        <li>CS5010 - Recitation PDP</li>
       </ol>
+      <h2>Intake</h2>
+      <ul>
+        <li>Fall' 25</li>
+      </ul>
       {/* <h2>Lab 1</h2>
       <h2>Lab 2</h2>
       <h2>Lab 3</h2> */}
