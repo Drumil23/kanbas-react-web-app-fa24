@@ -1,11 +1,15 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-/* eslint-disable @typescript-eslint/no-unused-vars */
+{/*import Labs from './Labs/Labs';*/}
+import Labs from './Labs';
 
 function App() {
   return (
-    <h1>Hello Drumil! We are testing this for new branch "a1"; Welcome to Learn React!</h1>
+    <div>
+      <h1>Hello Drumil! Welcome to CS5600 </h1>
+      <Labs />
+    </div>
   );
 }
 
