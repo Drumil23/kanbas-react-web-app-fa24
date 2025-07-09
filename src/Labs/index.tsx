@@ -43,9 +43,57 @@ export default function Labs() {
           </tr>
         </tbody>
       </table>
-      {/* <h2>Lab 1</h2>
-      <h2>Lab 2</h2>
-      <h2>Lab 3</h2> */}
+      <br />
+    
+      <label htmlFor="comments">Comments:</label>
+      <textarea id="comments" name="comments" rows={1} cols={40}></textarea>
+      <h2>Schedule Web Development</h2>
+      <label htmlFor="radio-schedule"></label>
+      <input type="radio" id="radio-schedule" name="schedule" itemID="monday" /> Monday <br />
+      <input type="radio" id="radio-schedule" name="schedule" itemID="tuesday" /> Tuesday <br />
+      <input type="radio" id="radio-schedule" name="schedule" itemID="wednesday" /> Wednesday <br />
+      <input type="radio" id="radio-schedule" name="schedule" itemID="thursday" /> Thursday <br />
+      <input type="radio" id="radio-schedule" name="schedule" itemID="friday" /> Friday <br />
+      <input type="radio" id="radio-schedule" name="schedule" itemID="saturday" /> Saturday <br />
+      <br />
+      <button type="button" onClick={() => alert("Life's good!")}>Button</button>
+
+      <h2 id="wd-checkbox">PDP Schedule</h2>
+      <input type="checkbox" name="genre" id="wd-monday" />
+      <label htmlFor="wd-monday">Monday</label><br />
+      <input type="checkbox" name="genre" id="wd-tuesday" />
+      <label htmlFor="wd-tuesday">Tuesday</label><br />
+      <input type="checkbox" name="genre" id="wd-wednesday" />
+      <label htmlFor="wd-wednesday">Wednesday</label><br />
+      <input type="checkbox" name="genre" id="wd-thursday" />
+      <label htmlFor="wd-thursday">Thursday</label><br />
+      <input type="checkbox" name="genre" id="wd-friday" />
+      <label htmlFor="wd-friday">Friday</label><br />
+      <input type="checkbox" name="genre" id="wd-saturday" />
+      <label htmlFor="wd-saturday">Saturday</label><br />
+
+      <h2>Role</h2>
+      <label htmlFor="role">Select your role:</label>
+      <select name="role">
+        <option value="student">Student</option>
+        <option value="instructor">Instructor</option>
+        <option value="ta">TA</option>
+      </select>
+      <br />
+
+      <h2>Other tags</h2>
+      <label htmlFor="other-tags">Range:</label>
+      <input type="range" id="other-tags" min={0} max={100} />
+      <br />
+      <label htmlFor="hours">Hours:</label>
+      <input type="text" id="hours" placeholder="100" defaultValue={101} min={99}/>
+      <br />
+      <label htmlFor="email">Mail:</label>
+      <input type="email" id="email" placeholder="you@example.com" />
+      <br />
+      <label htmlFor="date">Date:</label>
+      <input type="date" id="date" />
+      <br />
     </div>
   );
 }
