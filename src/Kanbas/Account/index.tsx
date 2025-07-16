@@ -2,7 +2,7 @@ import Signin from "./Signin";
 import Signup from "./Signup";
 import { Routes, Route } from "react-router-dom";
 import Profile from "./Profile";
-import { Navigate, Link} from "react-router-dom";
+import { Navigate} from "react-router-dom";
 import AccountNavigation from "./Navigation";
 
 export default function Account() {

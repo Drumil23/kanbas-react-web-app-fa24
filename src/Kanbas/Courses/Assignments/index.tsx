@@ -13,7 +13,8 @@ export default function CourseAssignments() {
 
       <ul>
         <li>
-          <a href="#">A1 - ENV + HTML</a>
+          {/* <a href="#">A1 - ENV + HTML</a> */}
+          <a>A1 - ENV + HTML</a>
           <div>
             Multiple Modules | <strong>Not available until</strong> May 6 at 12:00am | <br />
             <strong>Due</strong> May 13 at 11:59pm | 100 pts
@@ -21,7 +22,9 @@ export default function CourseAssignments() {
         </li>
 
         <li>
-          <a href="#">A2 - CSS + BOOTSTRAP</a>
+          {/* <a href="#">A2 - CSS + BOOTSTRAP</a> */}
+          <a>A2 - CSS + BOOTSTRAP</a>
+
           <div>
             Multiple Modules | <strong>Not available until</strong> May 13 at 12:00am | <br />
             <strong>Due</strong> May 20 at 11:59pm | 100 pts
@@ -29,7 +32,9 @@ export default function CourseAssignments() {
         </li>
 
         <li>
-          <a href="#">A3 - JAVASCRIPT + REACT</a>
+          {/* <a href="#">A3 - JAVASCRIPT + REACT</a> */}
+          <a>A3 - JAVASCRIPT + REACT</a>
+
           <div>
             Multiple Modules | <strong>Not available until</strong> May 20 at 12:00am | <br />
             <strong>Due</strong> May 27 at 11:59pm | 100 pts
