@@ -1,19 +1,33 @@
-import { Link, Route, Routes } from "react-router";
+import { Link, Navigate, Route, Routes } from "react-router";
 import Account from "./Account";
-import Signin from "./Account/Signin";
-import Signup from "./Account/Signup";
+import Dashboard from "./Dashboard";
+import KanbasNavigation from "./Navigation";
+import Courses from "./Courses";
 
 export default function Kanbas() {
   return (
-    <div>
+    <div id="wd-kanbas">
       <h1>Kanbas</h1>
       <p>Welcome to the Kanbas section!</p>
-      < Account />
-      {/* <Routes>
-        <Route path="/Kanbas/Account" element={<Account />} />
-        <Route path="/Kanbas/Account/Signin" element={<Signin />} />
-        <Route path="/Kanbas/Account/Signup" element={<Signup />} />
-      </Routes> */}
-    </div>
+      <table>
+        <tbody>
+          <tr>
+            <td valign="top">
+              <KanbasNavigation />
+            </td>
+            <td valign="top">
+              <Routes>
+                <Route path="/" element={<Navigate to="Account" />} />
+                <Route path="/Account/*" element={<Account />} />
+                <Route path="/Dashboard" element={<Dashboard />} />
+                <Route path="/Courses/:courseId/*" element={<Courses />} />
+                <Route path="/Calendar" element={<div>Calendar</div>} />
+                <Route path="/Inbox" element={<div>Inbox</div>} />
+              </Routes>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>  
   );
 }

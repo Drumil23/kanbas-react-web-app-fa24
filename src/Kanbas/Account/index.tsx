@@ -1,18 +1,32 @@
-import { Link } from "react-router-dom";
 import Signin from "./Signin";
 import Signup from "./Signup";
 import { Routes, Route } from "react-router-dom";
+import Profile from "./Profile";
+import { Navigate, Link} from "react-router-dom";
+import AccountNavigation from "./Navigation";
 
 export default function Account() {
   return (
     <div>
-      <h1>Account</h1>
-      <Routes>
-        <Route path="Kanbas/Account/Signin" element={<Signin />} />
-        <Route path="Kanbas/Account/Signup" element={<Signup />} />
-      </Routes>
-      <Link to="Kanbas/Account/Signin">Sign In</Link>
-      <Link to="Kanbas/Account/Signup">Sign Up</Link>
+      <h2>Account</h2>
+      <br />
+      <table>
+        <tbody>
+          <tr>
+            <td valign="top">
+              <AccountNavigation />
+            </td>
+            <td valign="top">
+              <Routes>
+                <Route path="/" element={<Navigate to="/Kanbas/Account/Signin" />} />
+                <Route path="/Signin" element={<Signin />} />
+                <Route path="/Signup" element={<Signup />} />
+                <Route path="/Profile" element={<Profile />} />
+              </Routes>
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   );
 }
