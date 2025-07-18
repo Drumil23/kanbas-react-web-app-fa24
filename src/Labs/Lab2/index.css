@@ -1,0 +1,108 @@
+/* p {
+  background-color: red;
+  color: white;
+} */
+
+p#lab2-paragraph-1 {
+  background-color: rgb(197, 220, 150);
+  color: rebeccapurple;
+  padding: 3px;
+}
+
+p#lab2-paragraph-2 {
+  background-color: rgb(227, 173, 173);
+  color: rebeccapurple;
+  padding: 3px;
+}
+
+.fg-color-blue {
+  color: blue;
+}
+
+.fg-color-red {
+  color: red;
+}
+.fg-color-green {
+  color: green;
+}
+
+.fg-color-yellow {
+  color: yellow;
+}
+
+.fg-color-purple {
+  color: purple;
+}
+
+.fg-color-orange {
+  color: orange;
+}
+
+.fg-color-black {
+  color: black;
+}
+
+.fg-color-white {
+  color: white;
+}
+
+.bg-color-blue {
+  background-color: rgb(29, 95, 235);
+}
+
+.bg-color-red {
+  background-color: rgb(235, 29, 29);
+}
+
+.bg-color-green {
+  background-color: rgb(29, 235, 29);
+}
+
+.bg-color-yellow {
+  background-color: rgb(235, 235, 29);
+}
+
+.wd-dimensions-portrait {
+  width: 75px;
+  height: 100px;
+}
+
+.wd-dimensions-landscape {
+  width: 120px;
+  height: 70px;
+}
+
+.wd-dimensions-square {
+  width: 80px;
+  height: 80px;
+}
+
+.wd-pos-absolute-10-10 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.wd-pos-absolute-50-50 {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.wd-pos-absolute-120-20 {
+  position: absolute;
+  top: 20px;
+  left: 120px;
+}
+
+.wd-pos-relative {
+  position: relative;
+  width: 210px; /* Optional, just to contain layout */
+  height: 150px;
+  background-color: lightgray; /* Just for visibility */
+}
+
+.wd-pos-z-index-1 {
+  position: relative;
+  z-index: 10;
+}

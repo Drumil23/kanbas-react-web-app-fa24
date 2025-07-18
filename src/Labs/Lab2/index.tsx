@@ -1,8 +1,17 @@
+import Dimensions from "./Dimensions";
+import "./index.css";
+
 export default function Lab2() {
     return (
-        <div>
-            <h2>Lab 2</h2>
-            <p> Testing Lab 2!</p>
+        <div id="wd-lab2">
+            <h2 className="fg-color-green">Lab 2</h2>
+            <p className="fg-color-blue" > Cascading Style Sheets (CSS)</p>
+            <br />
+            <span style={{ backgroundColor: "lightgray", color: "brown", padding: "3px", border: "3px dashed green" }}>Khoury College </span>
+            <span style={{ backgroundColor: "lightgray", color: "brown", padding: "3px", border: "3px solid blue" }}>of Computer Science</span>
+            <p id="lab2-paragraph-1" >I'm on video Module-3</p>
+            <p id="lab2-paragraph-2">Styling Web Applications </p>
+            <Dimensions />
         </div>
     );
 }
