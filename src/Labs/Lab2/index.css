@@ -150,3 +150,19 @@ p#lab2-paragraph-2 {
   float: right;
 }
 
+.flex-container {
+  display: flex;
+  border-width: 5px;
+  border-style: dotted;
+  border-color: rgb(26, 28, 26);
+  margin: 30px;
+}
+
+.flex-box {
+  border: 5px solid rgb(251, 4, 4);
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* border: 5px solid black; */
+}
