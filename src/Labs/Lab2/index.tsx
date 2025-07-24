@@ -2,7 +2,7 @@ import Dimensions from "./Dimensions";
 import Flex from "./Flex";
 import GridLayout from "./GridLayout";
 import "./index.css";
-
+import ReactIcons from "./ReactIcons";
 export default function Lab2() {
     return (
         <div id="wd-lab2">
@@ -16,6 +16,7 @@ export default function Lab2() {
             <Dimensions />
             <GridLayout />
             <Flex />
+            <ReactIcons />
         </div>
     );
 }
