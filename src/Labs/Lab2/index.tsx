@@ -1,4 +1,5 @@
 import Dimensions from "./Dimensions";
+import GridLayout from "./GridLayout";
 import "./index.css";
 
 export default function Lab2() {
@@ -12,6 +13,7 @@ export default function Lab2() {
             <p id="lab2-paragraph-1" >I'm on video Module-3</p>
             <p id="lab2-paragraph-2">Styling Web Applications </p>
             <Dimensions />
+            <GridLayout />
         </div>
     );
 }

@@ -62,6 +62,14 @@ p#lab2-paragraph-2 {
   background-color: rgb(235, 235, 29);
 }
 
+.bg-color-purple {
+  background-color: rgb(128, 0, 128);
+}
+
+.bg-color-orange {
+  background-color: rgb(255, 165, 0);
+}
+
 .wd-dimensions-portrait {
   width: 75px;
   height: 100px;
@@ -106,3 +114,39 @@ p#lab2-paragraph-2 {
   position: relative;
   z-index: 10;
 }
+
+.wd-grid-row {
+  clear: both;
+  overflow: hidden; 
+}
+
+.wd-grid-col-half-page {
+  width: 50%;
+  float: left;
+}
+
+.wd-grid-col-one-third {
+  width: 33.33%;
+  float: right;
+}
+
+.wd-grid-col-two-thirds {
+  width: 66.67%;
+  float: left;
+}
+
+.wd-grid-col-sidebar-left {
+  width: 25%;
+  float: left;
+}
+
+.wd-grid-col-main-content {
+  width: 50%;
+  float: left;
+}
+
+.wd-grid-col-sidebar-right {
+  width: 25%;
+  float: right;
+}
+
