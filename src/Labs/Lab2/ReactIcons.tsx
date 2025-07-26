@@ -9,7 +9,8 @@ export default function ReactIcons() {
     <div id="wd-react-icons-sampler" className="mb-4">
       <h3>React Icons Sampler</h3>
       <div className="d-flex">
-        <h2><VscAccount className="fs-3 text" /></h2>
+        <h5>Commented icons</h5>
+        {/* <h2><VscAccount className="fs-3 text" /></h2>
         <h2><FaCalendar className="fs-3 text" /></h2>
         <h2><FaEnvelopeOpenText className="fs-3 text" /></h2>
         <h2><FaRegClock className="fs-3 text" /></h2>
@@ -17,7 +18,7 @@ export default function ReactIcons() {
         <h2><FaBookBible className="fs-3 text" /></h2>
         <h2><FcDislike className="fs-3 text" /></h2>
         <h2><FcShipped className="fs-3 text" /></h2>
-        <h2><FcCollaboration className="fs-3 text" /></h2>
+        <h2><FcCollaboration className="fs-3 text" /></h2> */}
       </div>
     </div>
   );

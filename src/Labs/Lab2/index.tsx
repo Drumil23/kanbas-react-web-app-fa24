@@ -1,3 +1,4 @@
+import BootstrapGrids from "./BootstrapGrids";
 import Dimensions from "./Dimensions";
 import Flex from "./Flex";
 import GridLayout from "./GridLayout";
@@ -17,6 +18,7 @@ export default function Lab2() {
             <GridLayout />
             <Flex />
             <ReactIcons />
+            <BootstrapGrids />
         </div>
     );
 }

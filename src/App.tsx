@@ -8,7 +8,7 @@ import {HashRouter, Link, Route, Routes} from 'react-router-dom';
 
 function App() {
   return (
-      <div>
+      <div className='container-fluid'>
         <HashRouter>
           <img src="images/NU_logo.png" alt="NU Logo" width={200} height="100px"/>
           <h1>Hello Drumil! Welcome to CS5600 </h1>
