@@ -1,6 +1,7 @@
 import BootstrapGrids from "./BootstrapGrids";
 import Dimensions from "./Dimensions";
 import Flex from "./Flex";
+import Float from "./Float";
 import GridLayout from "./GridLayout";
 import "./index.css";
 import ReactIcons from "./ReactIcons";
@@ -19,6 +20,7 @@ export default function Lab2() {
             <Flex />
             <ReactIcons />
             <BootstrapGrids />
+            <Float />
         </div>
     );
 }

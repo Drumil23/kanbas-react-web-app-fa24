@@ -10,6 +10,10 @@ export default function Float() {
                 <img style={{float:"left"}} src="images/html.png" width={120} alt="HTML Image" />
                 I like hats. Hats are nice. They keep your head warm. And dry. And they can also be used to hide your baldness. But if you wear a hat all the time, people will think you're bald, even if you're not. So it's a double-edged sword. But I still like hats. They're just so versatile. You can wear them in the summer to keep the sun out of your eyes, or in the winter to keep your head warm. They're just great.
             </p>
+            <br />
+            <br />
+            <br />
+            
             {/* <p>
                 <img style={{float:"right"}} src="images/css.png" width={120} alt="JavaScript Image" />
                 IT’S 👈 ALMOST 💯🕸 2️⃣0️⃣2️⃣5️⃣ SO 💒💯 IT’S TIME ⏲⏰ TO 🚻🆒 2️⃣0️⃣2️⃣0️⃣-DIVE 💦🙀 INTO 👉➡ SOME 🤷 PUSSY🥟🗜️ 💦 AND DROWN🌊 IN 🍑 SOME ⏳ DICKS🍆‼️ 😣 2️⃣0️⃣2️⃣4️⃣ WAS 👈✨ A 🍂⏰ 🤤DELECTABLE 😋😋 YEAR ⌚️FOR 😻ALL US WHORES‼️ WHO CAN 💦 FORGET ❌❌ THE 👏 SUMMER☀️ 😂 WE 👦🤠 ALL 😋 CHOKED 😩🍽️ON 🌭BRATS🌭, OR ➕💰 THE GOLD 🏅🏅 WINNINGS 🌉EIFFEL TOWERS 🇫🇷AT 😩 THE 👏 PARIS 📸OLYM(SEND)PICS 🎥⁉️ AND 💯💯 REMEMBER🗣️ TO 👌STROKE ✊👋 ONE ❤ OUT FOR 🎁 OLD 👴 JIMMY CARTER, WHO’S 😂 THROWING 🚮😤 IT BACK 😂🔙 ON 🔛🔋 THE BIG 💦NUT🥜 FARM 🐓IN THE 👊 SKY 🏕🏖 🌠👅. SEND 📨 TO 5️⃣ OTHER WHORES 💃🕺OR YOU’LL NEVER ❌‼ HAVE 👏🈶 A PRESIDENTIAL SIZED 🪩ERECTION 🍆 EVER 😠🌚AGAIN‼️ SENT ✉ TO 🔟 AND 😤👏 YOU’LL 👈👆 BE KISSED 👄 EVERYWHERE 😎 WHEN ⏰🍑 THE 🍗COCK🍆 STRIKES 🕰️MIDNIGHT. 🕯 SEND 📬📩 TO 💦 1️⃣5️⃣ ⚪ AND 👏👏 THIS WILL 🖕 BE 😱🐝 YOUR SLUTTIEST 🍆🍑 YEAR 🤔 YET‼️
