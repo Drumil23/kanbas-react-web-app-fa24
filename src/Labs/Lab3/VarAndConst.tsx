@@ -7,9 +7,9 @@ export default function VarAndConst() {
         <div>
             <h2>Variables and Constants</h2>
 
-            <h3>x = {x}</h3>
-            <h3>y = {y}</h3>
-            <h3>z = {z}</h3>
+            <p>x = {x}</p>
+            <p>y = {y}</p>
+            <p>z = {z}</p>
         </div>
     );
 }
