@@ -9,15 +9,12 @@ export default function Courses() {
     <div id="wd-courses">
       <h2>Courses</h2>
       <p>Welcome to the Courses section!</p>
-      <table>
-        <tbody>
-          <tr>
-            <td valign="top">
-              <CoursesNavigation />
-            </td>
-            <td valign="top">
-                <Routes>
-                    <Route path="/" element={<Navigate to="Home" />} />
+      <div>
+        <CoursesNavigation />
+      </div>
+      <div>
+        <Routes>
+          <Route path="/" element={<Navigate to="Home" />} />
                     <Route path="/Home" element={<Home />} />
                     <Route path="/Modules" element={<Modules />} />
                     <Route path="/Piazza" element={<div>Piazza Discussions</div>} />
@@ -27,10 +24,7 @@ export default function Courses() {
                     <Route path="/Grades" element={<div>Grades</div>} />
                     <Route path="/Peers" element={<div>Peer Resources</div>} />
                 </Routes>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  );
+            </div>
+        </div>
+    );
 }
